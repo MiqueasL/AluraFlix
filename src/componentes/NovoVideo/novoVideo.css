@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.formulario__container {   
+    display: flex;
+    flex-direction: column;
+    margin-left: 94px;
+    margin-right: 94px;
+}
+
+.formulario__criar_card {
+    border-top: solid 3px #262626;
+    border-bottom: solid 3px #262626;
+    border-radius: 4px;
+    width: 1172px;
+    height: 88px;
+    margin: 0;
+}
+
+.formulario__criar_card h1 {
+    display: flex;
+    align-items: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+    padding: 8px;
+    color: #F5F5F5;
+}
+
+.formulario__titulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding-bottom:47px ;
+    padding-top: 71px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.formulario__titulo h1{
+    font-weight: 900;
+    font-size: 60px;
+    color: #F5F5F5;
+}
+
+.formulario__titulo h2{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #F5F5F5;
+
+}
+
+.formulario__um {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 60px;
+}
+
+.formulario__dois {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 60px;
+}
+
+.formulario__texto {
+    display: flex;
+    padding-top: 60px;
+    align-items: start;
+}
+
+.formulario__botao{
+    display: flex;
+    padding-top: 60px;
+    gap: 30px;
+}

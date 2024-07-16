@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+.campotext {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.campotext label {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Source Sans 3", sans-serif;
+    color: #F5F5F5;
+}
+
+.campotext textarea {
+    width: 573px;
+    height: 220px;
+    resize: none;
+    border: 3px solid #262626;    
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #A5A5A5;
+    background-color: #000000;
+}
+
+::placeholder {
+    font-weight: 600;
+    font-size: 20px;
+    color: #A5A5A5;
+    font-family: "Source Sans 3", sans-serif;
+    padding-top: 27px;
+    padding-left: 11px;    
+}

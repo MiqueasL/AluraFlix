@@ -1,0 +1,51 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    height: 125px;
+    border-bottom: 4px solid #2271D1;
+    box-shadow: 0px 5px 29px 0px #2271D1B2;
+}
+
+.logo {
+    margin-top: 42.5px;
+    margin-bottom: 42.5px;
+    margin-left: 51.15px;
+}
+
+.botoes {    
+    display: flex;
+    gap: 30px;
+    margin-right: 51.15px;
+    margin-top: 35.5px;
+}
+
+.botaoazul{
+    display: flex;
+    width: 180.1px;
+    height: 54px;
+    border-radius: 10px;
+    color: #2271D1;    
+    border: 3px solid #2271D1;    
+    font-size: 20px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 900; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 12px 4px #2271D1 inset;
+    text-decoration: none;
+}
+
+.botaobranco{
+    display: flex;
+    width: 180.1px;
+    height: 54px;
+    border-radius: 10px;
+    color: #FFFFFF;    
+    border: 3px solid #FFFFFF;    
+    font-size: 20px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 900;     
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

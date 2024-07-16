@@ -1,0 +1,54 @@
+.banner{
+    padding-top: 213px;
+    padding-bottom: 126px;
+    border: #2271D1 solid 1px ;       
+    gap: 100px;   
+    display: flex;    
+    box-shadow: 0px 0px 12px 4px #2271D1 inset;
+    background-image:url(https://i.ytimg.com/vi_webp/ms-DTT4n_pw/sddefault.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.texto h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 296px;
+    height: 92px;
+    border-radius: 15px;
+    background-color: #00C86F;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;   
+}
+
+.texto span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+}
+
+.texto p{
+    font-weight: 300;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+.texto{
+    padding-left: 30px;
+    color: #FFFFFF;
+}
+
+.video{
+    padding-right: 30px;
+}
+
+.video iframe{
+    border: solid 4px #2271D1;
+    width: 600px;
+    height: 333px;   
+    box-shadow: 0px 0px 12px 4px #2271D1 inset;
+}
